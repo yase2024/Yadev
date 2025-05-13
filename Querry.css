@@ -1,0 +1,46 @@
+
+@media (max-width: 768px) {
+     html{
+         font-size: 62.5%;
+     }
+   
+    .nav-links {
+      display: none;
+    }
+
+    .menu-btn {
+      display: block;
+    }
+
+    .mobile-menu.show {
+      display: flex;
+    }
+    #about-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15rem;
+        height: 75rem;
+
+    }
+    #header{
+        color: rgb(250, 8, 230);
+        text-decoration: underline;
+        text-decoration-color: white;
+        margin-bottom: 1rem;
+    }
+    .paragraph{
+        font-size: 1.3rem;
+    }
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   
+  }
+
+
+  
