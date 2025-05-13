@@ -22,7 +22,10 @@
         align-items: center;
         gap: 15rem;
         height: 75rem;
-
+    }
+      .header{
+        text-align: center;
+        font-size: 2rem;
     }
     #header{
         color: rgb(250, 8, 230);
